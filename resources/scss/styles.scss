@@ -1,0 +1,15 @@
+@import "variables";
+
+body {
+  //background-color: $default-background;
+}
+
+.thumbnail {
+  max-width: 100%;
+  height: auto;
+
+  &--table {
+    max-height: 50px;
+    width: auto;
+  }
+}

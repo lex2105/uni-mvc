@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "sass": "^1.43.4",
+    "uglify-js": "^3.14.3"
+  },
+  "scripts": {
+    "sass": "npx sass resources/scss/styles.scss public/css/styles.css",
+    "sass:watch": "npx sass --watch resources/scss/styles.scss public/css/styles.css",
+    "js:copy": "cp resources/js/*.js public/js",
+    "js:minify": "npx uglifyjs resources/js/*.js --compress --mangle > public/js/app.min.js",
+    "js": "npm run js:minify",
+    "build": "npm run sass && npm run js"
+  }
+}

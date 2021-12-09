@@ -1,0 +1,10 @@
+.thumbnail {
+  max-width: 100%;
+  height: auto;
+}
+.thumbnail--table {
+  max-height: 50px;
+  width: auto;
+}
+
+/*# sourceMappingURL=styles.css.map */
